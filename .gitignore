@@ -5,7 +5,11 @@ __pycache__/
 *.pyd
 *.log
 .env
-backend/venv/
+backend/venv/bin
+backend/venv/include
+backend/venv/lib
+backend/venv/pyvenv.cfg
+backend/venv/lib64
 
 # Node / Vite
 frontend/node_modules/
