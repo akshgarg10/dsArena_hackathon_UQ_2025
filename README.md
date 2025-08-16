@@ -45,4 +45,15 @@ A head-to-head coding arena where two players join the same session, solve a seq
 - **Backend:** Flask, `flask-cors`
 - **Runtime:** Python subprocess for sandboxed execution (with short timeout)
 
-## Repo Layout
+Game Flow
+
+- Player 1 Create Session → gets sessionId.
+
+- Share sessionId; Player 2 Join Session.
+
+- Both see current round’s problem statement and signature.
+- Implement the required function for that round.
+
+- Click Run Code. If all tests pass: round ends, winner/loser screens show.
+
+- Start next round (until round 5). Final champion decided by score (tie → last round’s winner).
